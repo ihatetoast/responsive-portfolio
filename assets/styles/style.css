@@ -5,7 +5,8 @@ font-family: 'Chivo', sans-serif;*/
   box-sizing: border-box; }
 
 html, body {
-  height: 100%; }
+  height: 100%; 
+}
 
 /*flexbox: 
 column, have bulk div for .content so it grows and footer sticks*/
@@ -29,10 +30,6 @@ hr {
   border-color: #c6b1c7;
   margin: 1em 0 1.5em 0; }
 
-.content {
-  width: 960px;
-  margin: 0 auto; }
-
 /*TOP:
 *********************************************************
 *********************************************************
@@ -42,35 +39,48 @@ contains div of name and logo, nav with links
 *********************************************************
 */
 header {
-  align-items: flex-end;
   background-color: #f5f8fa;
   border-bottom: 1px solid #97919f; }
+
+.content-header {
+  display: flex;
+  flex-direction: column; }
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .name {
   background-color: #652e67;
   color: #f5f8fa;
-  display: inline-block;
   font-size: 2em;
   letter-spacing: 0.1em;
-  padding: 0.75em; }
+  padding: 0.75em;
+  flex-grow: 1; }
+  .name h1 {
+    text-align: center; }
 
-#ihtLogo {
-  margin-bottom: -25px;
-  width: 70px; }
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 1em auto; }
 
-.brand {
-  float: left;
-  width: 65%; }
-
-nav {
-  float: right;
-  margin-top: 35px;
-  width: 35%; }
+#ihtlogo {
+  box-sizing: content;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background-color: #f5f8fa;
+  display: inline-block;
+  padding-top: 0.1em; }
+  #ihtlogo img {
+    width: 80%;
+    height: 80%; }
 
 #navLinks li {
-  float: left;
-  margin-right: 1em;
-  margin-bottom: 1em; }
+  flex-grow: 1; }
 
 .inactive {
   color: #c6b1c7; }
@@ -91,15 +101,18 @@ contains two columns: main about and an aside
 *********************************************************
 *********************************************************
 */
+#main {
+  margin: 1em; 
+  flex: 1;
+}
+
 .aboutContent, aside {
   margin-top: 2em;
   box-shadow: inset 0px 0px 25px -2px #97919f; }
 
 .aboutContent {
   background-color: #f5f8fa;
-  float: left;
-  padding: 1.5em;
-  width: 60%; }
+  padding: 1.5em; }
 
 .aboutContent h2 {
   color: #652e67;
@@ -116,21 +129,15 @@ ASIDE
 */
 aside {
   background-color: #f5f8fa;
-  float: left;
-  margin-left: 2em;
-  padding: 1.5em;
-  text-align: center; }
+  padding: 1.5em; }
 
 aside li {
   display: inline; }
 
-.iconRowOne ul li {
-  float: left;
-  padding: 0.2em 0.6em; }
-
-.iconRowTwo ul li {
-  float: left;
-  padding: 0.2em 0.5em; }
+.iconRow ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
 
 .title h3 {
   color: #652e67;

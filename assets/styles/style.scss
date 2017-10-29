@@ -36,10 +36,10 @@ hr {
 	border-color: $lilac;
 	margin: 1em 0 1.5em 0;
 }
-.content {
-	width: 960px;
-	margin: 0 auto;
-}
+// .content {
+// 	width: 960px;
+// 	margin: 0 auto;
+// }
 /*TOP:
 *********************************************************
 *********************************************************
@@ -49,35 +49,55 @@ contains div of name and logo, nav with links
 *********************************************************
 */
 header {
-	align-items: flex-end;
 	background-color: $white;
 	border-bottom: 1px solid $lavender;
+}
+.content-header {
+	display: flex;
+	flex-direction: column;
+}
+.brand {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+
 }
 .name {
 	background-color: $eggplant;
 	color: rgb(245, 248, 250);
-	display: inline-block;
 	font-size: 2em;
 	letter-spacing: 0.1em;
 	padding: 0.75em;
+	flex-grow:1;
+	h1 {
+		text-align: center;
+	}
+
 }
-#ihtLogo {
-	margin-bottom: -25px;
-	width: 70px;
-}
-.brand {
-	float: left;
-	width: 65%;
-}
+
 nav {
-	float: right;
-	margin-top: 35px;
-	width: 35%;
+	ul{
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		margin: 1em auto;
+	}
+}
+#ihtlogo {
+	box-sizing: content;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	background-color: $white;
+	display: inline-block;
+	padding-top: 0.1em;
+	img {
+		width: 80%;
+		height: 80%;
+	}
 }
 #navLinks li{ 
-	float: left;
-	margin-right: 1em;
-	margin-bottom: 1em;
+	flex-grow:1;
 }
 .inactive {
 	color: $lilac;
@@ -100,15 +120,16 @@ contains two columns: main about and an aside
 *********************************************************
 *********************************************************
 */
+#main {
+	margin: 1em;
+}
 .aboutContent, aside {
 		margin-top: 2em;
 		box-shadow: inset 0px 0px 25px -2px $lavender;
 }
 .aboutContent {
 	background-color: $white;
-	float: left;
 	padding: 1.5em;
-	width: 60%;
 }
 .aboutContent h2 {
 	color: $eggplant;
@@ -125,22 +146,18 @@ ASIDE
 */
 aside {
 	background-color: $white;
-	float: left;
-	margin-left: 2em;
 	padding: 1.5em;
-	text-align: center;
 }
 aside li {
 	display: inline;
 }
 
-.iconRowOne ul li{
-	float: left;
-	padding: 0.2em 0.6em;
-}
-.iconRowTwo ul li{
-	float: left;
-	padding: 0.2em 0.5em;
+.iconRow {
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
 }
 
 .title h3 {
