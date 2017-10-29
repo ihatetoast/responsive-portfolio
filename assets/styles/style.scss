@@ -69,12 +69,16 @@ header {
 		justify-content: space-around;
 	}
 }
+.box {
+
+}
 .brand {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 
 }
+
 .name {
 	background-color: $eggplant;
 	color: rgb(245, 248, 250);
