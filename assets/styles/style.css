@@ -19,6 +19,9 @@ body {
 h1, h2, h3 {
   font-family: 'Asul','Georgia', serif; }
 
+h4 {
+  color: #f5f8fa; }
+
 a {
   text-decoration: none; }
 
@@ -44,7 +47,7 @@ header {
 .content-header {
   display: flex;
   flex-direction: column; }
-  @media screen and (min-width: 620px) {
+  @media screen and (min-width: 768px) {
     .content-header {
       padding: 0 1em;
       flex-direction: row;
@@ -68,15 +71,24 @@ header {
   .name h1 {
     text-align: center; }
 
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin: 1em auto; }
-@media screen and (min-width: 620px) {
-  nav {
+nav {
+  justify-content: center; }
+  @media screen and (min-width: 620px) {
+    nav {
+      display: flex;
+      align-items: center; } }
+
+#navLinks {
+  display: flex; }
+  #navLinks li {
     display: flex;
-    align-items: center; } }
+    justify-content: space-around;
+    text-align: center;
+    margin: 1em;
+    flex-grow: 1; }
+    @media screen and (min-width: 620px) {
+      #navLinks li {
+        padding: 0 0.5em; } }
 
 #ihtlogo {
   box-sizing: content;
@@ -89,12 +101,6 @@ nav ul {
   #ihtlogo img {
     width: 80%;
     height: 80%; }
-
-#navLinks li {
-  flex-grow: 1; }
-  @media screen and (min-width: 620px) {
-    #navLinks li {
-      padding: 0 0.5em; } }
 
 .inactive {
   color: #c6b1c7; }
@@ -138,7 +144,7 @@ contains two columns: main about and an aside
     font-size: 2em; }
   @media screen and (min-width: 980px) {
     .aboutContent {
-      flex: 0 0 45%;
+      flex: 0 0 50%;
       margin-right: 2em; } }
 
 .imgWithText img {
@@ -241,8 +247,7 @@ label {
 input, textarea {
   width: 100%;
   font-size: 1em;
-  line-height: 2em;
-   }
+  padding: 0.5em; }
 
 #subBtn {
   background-color: #652e67;
@@ -264,25 +269,34 @@ input, textarea {
 ************************************************
 */
 .projectHolder {
-  text-align: center; }
+  display: flex;
+  flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .projectHolder {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between; } }
+  @media screen and (min-width: 980px) {
+    .projectHolder {
+      flex-direction: column; } }
 
 .projectPic {
   display: inline-block;
   box-shadow: 2px 2px 15px 1px #ccc;
+  background-color: #e7f3fe;
   position: relative;
-  width: 15em;
-  height: 12em;
   margin: 1em 0.7em;
-  float: left;
   overflow: hidden; }
-
-.projectPic img {
-  width: 100%; }
+  .projectPic img {
+    width: 100%; }
+  @media screen and (min-width: 768px) {
+    .projectPic {
+      flex-basis: 48%;
+      margin: 1em 0em; } }
 
 .projectTitleBar0 {
   background-color: #652e67;
   opacity: 0.8;
-  padding: 1em;
   position: absolute;
   bottom: 5%;
   width: 100%;
@@ -292,17 +306,9 @@ input, textarea {
 .projectTitleBar1 {
   position: absolute;
   text-align: center;
-  font-size: 1.5em;
-  top: 73%;
+  font-size: 2em;
+  bottom: 5%;
   width: 100%;
   z-index: 1; }
-
-.projectTitleBar1 span {
-  color: #f5f8fa;
-  opacity: 1;
-  font-size: 0.9em; }
-
-.projectTitleBar1 span:hover {
-  color: #dab929; }
 
 /*# sourceMappingURL=style.css.map */

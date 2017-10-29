@@ -28,6 +28,9 @@ body {
 h1, h2, h3 {
 	font-family: 'Asul','Georgia', serif;
 }
+h4 {
+	color: $white;
+}
 a {
 	text-decoration: none;
 }
@@ -57,7 +60,7 @@ header {
 .content-header {
 	display: flex;
 	flex-direction: column;
-	@media screen and (min-width: 620px){
+	@media screen and (min-width: 768px){
 		padding: 0 1em;
 		flex-direction: row;
 		justify-content: space-between;
@@ -85,15 +88,24 @@ header {
 }
 
 nav {
-	ul{
-		display: flex;
-		justify-content: space-around;
-		text-align: center;
-		margin: 1em auto;
-	}
+	justify-content: center;
 	@media screen and (min-width: 620px){
 		display: flex;
 		align-items: center;
+	}
+}
+
+#navLinks {
+	display: flex;
+	li{ 
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: 1em ;
+	flex-grow:1;
+		@media screen and (min-width: 620px){
+		padding: 0 0.5em;
+		}
 	}
 }
 #ihtlogo {
@@ -109,12 +121,7 @@ nav {
 		height: 80%;
 	}
 }
-#navLinks li{ 
-	flex-grow:1;
-		@media screen and (min-width: 620px){
-		padding: 0 0.5em;
-	}
-}
+
 .inactive {
 	color: $lilac;
 }
@@ -159,7 +166,7 @@ contains two columns: main about and an aside
 		font-size: 2em;
 		}
 	@media screen and (min-width: 980px)  {
-		flex: 0 0 45%;
+		flex: 0 0 50%;
 		margin-right: 2em;
 	}
 }
@@ -276,6 +283,7 @@ label {
 input, textarea {
 	width: 100%;
 	font-size: 1em;
+	padding: 0.5em;
 }
 
 #subBtn {
@@ -299,25 +307,40 @@ input, textarea {
 */
 
 .projectHolder {
-	text-align: center;
+	display:flex;
+	flex-direction: column;
+	@media screen and (min-width: 768px){
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	@media screen and (min-width: 980px){
+		flex-direction: column;
+	}
 }
 .projectPic {
 	display: inline-block;
 	box-shadow: 2px 2px 15px 1px #ccc;
+	background-color: rgb(231, 243, 254);
 	position: relative;
-	width: 15em;
-	height: 12em;
 	margin: 1em 0.7em;
-  float: left;
 	overflow: hidden;
+	img {
+		width: 100%;
+	}
+	@media screen and (min-width: 768px){
+		flex-basis: 48%;
+		margin: 1em 0em;
+	}
+	// @media screen and (min-width: 980px){
+	// 	flex-basis: 100%;
+	// 	margin: 1em 0em;
+	// }
 }
-.projectPic img {
-	width: 100%;
-}
+
 .projectTitleBar0 {
 	background-color: $eggplant;
 	opacity: 0.8;
-	padding: 1em;
 	position:absolute;
 	bottom: 5%;
 	width: 100%;
@@ -327,17 +350,10 @@ input, textarea {
 .projectTitleBar1 {
 	position: absolute;
 	text-align: center;
-	font-size: 1.5em;
-	top: 73%;
+	font-size: 2em;
+	bottom: 5%;
 	width: 100%;
 	z-index: 1;
+
 }
 
-.projectTitleBar1 span {
-	color: $white;
-	opacity: 1;
-	font-size: 0.9em;
-}
-.projectTitleBar1 span:hover {
-	color: rgb(218, 185, 41);
-}

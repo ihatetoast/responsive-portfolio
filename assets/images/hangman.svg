@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="408px" height="482px" viewBox="0 0 408 482" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="400px" height="300px" viewBox="0 0 400 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #D1E0E6;">
     <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>gallows10 copy</title>
+    <title>Dribble</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="40.2557902%" id="linearGradient-1">
@@ -12,18 +12,18 @@
             <stop stop-color="#E09504" offset="0%"></stop>
             <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-3" x="0" y="0" width="408" height="394.308475"></rect>
+        <rect id="path-3" x="0" y="0" width="215" height="207.450592"></rect>
         <linearGradient x1="57.6150891%" y1="136.850435%" x2="33.3287788%" y2="-54.4536791%" id="linearGradient-4">
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-5" x="0" y="394.308475" width="408" height="191.691525"></rect>
+        <rect id="path-5" x="0" y="207.450592" width="215" height="100.851295"></rect>
         <linearGradient x1="0%" y1="68.0856764%" x2="100%" y2="68.0856785%" id="linearGradient-6">
             <stop stop-color="#608293" stop-opacity="0.5" offset="0%"></stop>
             <stop stop-color="#C2CACE" stop-opacity="0.350656703" offset="49.2629929%"></stop>
             <stop stop-color="#608293" stop-opacity="0.5" offset="100%"></stop>
         </linearGradient>
-        <path d="M245,113.626432 L245,87 L255,87 L255,113.196895 C260.612455,118.44091 265,124.167292 265,132.692799 C265,143.636848 259.751953,149.923873 250,149.999344 C240.248047,150.074815 235,143.636848 235,132.692799 C235,124.400344 239.780305,118.753816 245,113.626432 Z M250.5,141.035722 C254.642136,141.035722 258,136.873256 258,132.769238 C258,128.66522 254.642136,122.668714 250.5,122.668714 C246.357864,122.668714 243,128.66522 243,132.769238 C243,136.873256 246.357864,141.035722 250.5,141.035722 Z" id="path-7"></path>
+        <path d="M129.27108,59.665159 L129.27108,45.7119766 L134.523247,45.7119766 L134.523247,59.4400664 C137.471002,62.1881138 139.775414,65.1889388 139.775414,69.656603 C139.775414,75.3916673 137.019052,78.6862887 131.897163,78.7258381 C126.775274,78.7653875 124.018913,75.3916673 124.018913,69.656603 C124.018913,65.3110663 126.529609,62.3520876 129.27108,59.665159 Z M132.159771,74.0285863 C134.33529,74.0285863 136.098897,71.8473085 136.098897,69.6966594 C136.098897,67.5460103 134.33529,64.4036314 132.159771,64.4036314 C129.984253,64.4036314 128.220646,67.5460103 128.220646,69.6966594 C128.220646,71.8473085 129.984253,74.0285863 132.159771,74.0285863 Z" id="path-7"></path>
         <linearGradient x1="74.0702391%" y1="14.804847%" x2="74.0702384%" y2="0%" id="linearGradient-8">
             <stop stop-color="#AA5042" stop-opacity="0.5" offset="0%"></stop>
             <stop stop-color="#000000" stop-opacity="0.361611187" offset="100%"></stop>
@@ -32,88 +32,144 @@
             <stop stop-color="#AA5042" stop-opacity="0.166411911" offset="0%"></stop>
             <stop stop-color="#000000" stop-opacity="0.31456635" offset="100%"></stop>
         </linearGradient>
-        <polygon id="path-10" points="30.6648649 81.4238876 84.5756757 31.6738372 133.282224 31.6738372 30.6648649 126.846508"></polygon>
+        <polygon id="path-10" points="16.1823526 42.8191448 44.6319724 16.6566183 70.3352176 16.6566183 16.1823526 66.7059652"></polygon>
         <linearGradient x1="5.13858006%" y1="50%" x2="0%" y2="50%" id="linearGradient-11">
             <stop stop-color="#AA5042" stop-opacity="0.224920743" offset="0%"></stop>
             <stop stop-color="#000000" stop-opacity="0.211956522" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-12" x="30.6648649" y="0" width="152.335135" height="31.7751756"></rect>
+        <rect id="path-12" x="16.1823526" y="0" width="80.3897515" height="16.7099102"></rect>
         <linearGradient x1="43.3925514%" y1="100%" x2="43.3925509%" y2="0%" id="linearGradient-13">
             <stop stop-color="#AA5042" stop-opacity="0.5" offset="0%"></stop>
             <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-14" x="6.93396226" y="7" width="301.132075" height="30"></rect>
+        <rect id="path-14" x="3.65861546" y="3.6514672" width="158.888443" height="15.6491452"></rect>
+        <rect id="path-15" x="0" y="0" width="215" height="207.450592"></rect>
+        <rect id="path-16" x="0" y="207.450592" width="215" height="100.851295"></rect>
+        <path d="M128.966195,59.7813368 L128.966195,45.6367925 L134.205975,45.6367925 L134.205975,59.5531571 C137.146778,62.3388929 139.445755,65.3808729 139.445755,69.9098092 C139.445755,75.7235275 136.695894,79.0633332 131.586085,79.103425 C126.476276,79.1435168 123.726415,75.7235275 123.726415,69.9098092 C123.726415,65.5046753 126.23119,62.5051154 128.966195,59.7813368 Z M131.848074,74.3417524 C134.018462,74.3417524 135.777909,72.1305593 135.777909,69.950415 C135.777909,67.7702706 134.018462,64.5847953 131.848074,64.5847953 C129.677686,64.5847953 127.918239,67.7702706 127.918239,69.950415 C127.918239,72.1305593 129.677686,74.3417524 131.848074,74.3417524 Z" id="path-17"></path>
+        <polygon id="path-18" points="16.229156 42.8460961 44.7610594 16.6671024 70.5386449 16.6671024 16.229156 66.7479513"></polygon>
+        <rect id="path-19" x="16.229156" y="0" width="80.6222591" height="16.7204277"></rect>
+        <rect id="path-20" x="3.66114869" y="3.6454615" width="158.998457" height="15.6234064"></rect>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Dribble" transform="translate(-196.000000, -74.000000)">
-            <g id="gallows10-copy" transform="translate(196.000000, 7.000000)">
-                <g id="backdrop-copy-2">
-                    <g id="sky">
-                        <use fill="#C9E6F4" xlink:href="#path-3"></use>
-                        <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
-                        <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+        <g id="Dribble">
+            <g id="Group" transform="translate(-24.000000, -2.000000)">
+                <g id="gallows10-copy" transform="translate(215.000000, 0.000000)">
+                    <g id="backdrop-copy-2">
+                        <g id="sky">
+                            <use fill="#C9E6F4" xlink:href="#path-3"></use>
+                            <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                            <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="sand">
+                            <use fill="#F5CF96" xlink:href="#path-5"></use>
+                            <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                        </g>
                     </g>
-                    <g id="sand">
-                        <use fill="#F5CF96" xlink:href="#path-5"></use>
-                        <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                    <path d="M69.7088453,123.422337 L69.7088453,123.422337 L69.7088453,123.422337 C70.7901202,123.422337 71.6666667,124.298883 71.6666667,125.380158 L71.6666667,128.01701 L71.6666667,128.01701 C71.6666667,129.935749 70.9770524,131.790578 69.7235711,133.243281 L66.5839243,136.881925 L69.1919742,140.770576 L69.1919742,140.770576 C70.0759235,142.088561 70.5479116,143.639669 70.5479116,145.226632 L70.5479116,148.35962 L70.5479116,148.35962 C70.5479116,149.454244 69.6605434,150.341612 68.5659193,150.341612 L68.5659193,150.341612 L68.5659193,150.341612 C67.4712951,150.341612 66.5839269,149.454244 66.5839269,148.35962 L66.5839269,142.792304 L61.501182,136.881925 L67.751024,130.991361 L67.751024,125.380158 L67.751024,125.380158 C67.751024,124.298883 68.6275705,123.422337 69.7088453,123.422337 Z" id="Rectangle-5" fill="#869EAA"></path>
+                    <g id="body" transform="translate(82.848700, 121.898604)" stroke="#FFA604" stroke-width="7" stroke-linecap="round">
+                        <path d="M57.553393,0.261009743 L57.553393,76.7368645" id="Line-4"></path>
+                        <polyline id="Line-6" points="56.9758249 22.4510141 43.2403958 46.0866698 17.2557731 56.3822807"></polyline>
+                        <polyline id="Line-6-Copy" transform="translate(67.425501, 46.487611) scale(-1, 1) translate(-67.425501, -46.487611) " points="77.3555136 21.9248184 57.4954877 38.8904517 67.0673749 71.0504044"></polyline>
+                        <ellipse id="Oval-3" cx="7.83948391" cy="56.6391142" rx="7.83948391" ry="3.91514615"></ellipse>
+                        <ellipse id="Oval-3-Copy" transform="translate(70.093362, 78.141798) rotate(-120.000000) translate(-70.093362, -78.141798) " cx="70.0933616" cy="78.1417979" rx="7.83948391" ry="3.91514615"></ellipse>
+                        <path d="M18.9807498,117.322015 L30.0848768,120.06537 L30.0848768,120.06537 C31.6933691,120.46276 33.3194577,119.480968 33.7168474,117.872475 C33.7587778,117.702756 33.7857926,117.529696 33.7975835,117.355272 L35.4619259,92.7344167 L56.3187299,76.3560553" id="Line-5"></path>
+                        <path d="M48.2522299,126.795685 L61.2603317,125.496831 L61.2603317,125.496831 C62.7174855,125.351335 63.8566678,124.175075 63.9554342,122.71401 L65.6898743,97.0561883 L86.5466784,80.677827" id="Line-5-Copy" transform="translate(67.399454, 103.736756) scale(-1, 1) rotate(-17.000000) translate(-67.399454, -103.736756) "></path>
                     </g>
-                </g>
-                <path d="M132.181391,235 L132.5,235 L132.5,235 C134.432997,235 136,236.567003 136,238.5 L136,246.395995 L136,246.395995 C136,248.296319 135.323535,250.134586 134.091739,251.581621 L126.5,260.499906 L132.580745,269.690026 L132.580745,269.690026 C133.447046,270.999308 133.908969,272.534545 133.908969,274.10448 L133.908969,282.5 L133.908969,282.5 C133.908969,284.432997 132.341965,286 130.408969,286 L130.000005,286 L130.000005,286 C128.067008,286 126.500005,284.432997 126.500005,282.5 L126.500005,271.697435 L117,260.499906 L128.681391,249.339919 L128.681391,238.5 L128.681391,238.5 C128.681391,236.567003 130.248394,235 132.181391,235 Z" id="Rectangle-5" fill="#869EAA"></path>
-                <g id="body" transform="translate(157.000000, 232.000000)" stroke="#FFA604" stroke-width="7" stroke-linecap="round">
-                    <path d="M109.5,0.496031746 L109.5,145.833333" id="Line-4"></path>
-                    <polyline id="Line-6" points="108.40113 42.6666667 82.2683616 87.5846664 32.8305085 107.150794"></polyline>
-                    <polyline id="Line-6-Copy" transform="translate(128.282486, 88.346629) scale(-1, 1) translate(-128.282486, -88.346629) " points="147.175141 41.6666667 109.389831 73.9087302 127.601123 135.026592"></polyline>
-                    <ellipse id="Oval-3" cx="14.9152542" cy="107.638889" rx="14.9152542" ry="7.44047619"></ellipse>
-                    <ellipse id="Oval-3-Copy" transform="translate(133.358308, 148.503316) rotate(-120.000000) translate(-133.358308, -148.503316) " cx="133.358308" cy="148.503316" rx="14.9152542" ry="7.44047619"></ellipse>
-                    <path d="M36.1124166,222.962727 L60.3732255,228.949771 L60.3732255,228.949771 C61.9818222,229.346738 63.6076527,228.364518 64.0046197,226.755922 C64.0464241,226.586521 64.0733701,226.413796 64.0851514,226.239712 L67.4691914,176.235623 L107.150953,145.109631" id="Line-5"></path>
-                    <path d="M91.8037825,240.966809 L118.830768,238.271222 L118.830768,238.271222 C120.287979,238.125884 121.427308,236.949693 121.526189,235.488595 L124.980316,184.448864 L164.662078,153.322872" id="Line-5-Copy" transform="translate(128.232930, 197.144840) scale(-1, 1) rotate(-17.000000) translate(-128.232930, -197.144840) "></path>
-                </g>
-                <g id="ropesource" transform="translate(115.000000, 136.000000)" stroke="#F5CF96" stroke-width="6" stroke-linecap="round">
-                    <path d="M13.0849138,91.572668 C5.35879471,99.2854378 1.46978609,104.730593 1.41788793,107.908134 C1.39195855,109.495699 -0.164062946,120.281462 1.41788793,139.580206 C2.19616848,149.074708 4.51246871,138.159451 8.36678862,106.834435 C9.28447843,99.3761421 7.94576441,129.570333 4.35064655,197.417007" id="Line-Copy"></path>
-                    <path d="M143.489871,4.9049152 C139.354701,1.92968108 136.36052,0.502319668 134.507328,0.622830952 C126.777347,1.12550403 121.040428,7.01442935 117.721552,9.35315248 C67.354564,44.8454173 35.1014597,70.8159063 27.2075431,77.7984846 C18.2528017,85.7194174 11.4737069,92.5397888 6.87025862,98.2595988" id="Line-3"></path>
-                </g>
-                <g id="pin">
-                    <use fill="#869EAA" xlink:href="#path-7"></use>
-                    <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
-                </g>
-                <g id="noose" transform="translate(243.000000, 137.000000)" stroke="#F5CF96" stroke-width="6" stroke-linecap="round">
-                    <path d="M6.74023437,0.4091889 C13.1510417,1.62321271 16.7832923,3.64997144 17.6369864,6.4894651 C18.4906804,9.32895876 18.3343412,21.2987821 17.1679688,42.398935 C7.7109375,55.6348578 2.23307292,65.5843713 0.734375,72.2474757 C-1.51367187,82.2421322 3.1743634,104.427329 17.6369864,104.427329 C32.0996094,104.427329 39.0235324,84.0802157 34.7207031,72.2474757 C31.8521503,64.3589824 27.410093,54.4094688 21.3945313,42.398935" id="Line"></path>
-                    <path d="M11,19.8113208 L26.5,19.8113208" id="Line-2"></path>
-                    <path d="M9,24.7641509 L27.5,24.7641509" id="Line-2-Copy"></path>
-                    <path d="M9,29.7169811 L27.5,29.7169811" id="Line-2-Copy-2"></path>
-                    <path d="M9,34.6698113 L27.5,34.6698113" id="Line-2-Copy-3"></path>
-                    <path d="M9,34.6698113 L27.5,34.6698113" id="Line-2-Copy-4"></path>
-                    <path d="M12,39.6226415 L25.5,39.6226415" id="Line-2-Copy-5"></path>
-                </g>
-                <g id="head" transform="translate(237.000000, 153.000000)">
-                    <ellipse id="Oval-4" fill="#FFA604" transform="translate(42.950451, 47.817089) rotate(22.000000) translate(-42.950451, -47.817089) " cx="42.9504508" cy="47.817089" rx="30.3929173" ry="38.2754445"></ellipse>
-                    <path d="M22.9041585,46.7216561 L33.9118274,73.35966" id="Line-7-Copy-2" stroke="#0C0C0B" stroke-width="2" stroke-linecap="square"></path>
-                    <g id="x" transform="translate(23.000000, 19.000000)" stroke="#0C0C0B" stroke-width="2" stroke-linecap="square">
-                        <path d="M15,0 L15,27" id="Line-7"></path>
-                        <path d="M14,0 L14,27" id="Line-7-Copy" transform="translate(14.000000, 14.000000) rotate(-75.000000) translate(-14.000000, -14.000000) "></path>
+                    <g id="ropesource" transform="translate(60.484634, 71.615430)" stroke="#F5CF96" stroke-width="6" stroke-linecap="round">
+                        <path d="M6.88165244,48.1550713 C2.81831148,52.2109647 0.772993785,55.0743939 0.745699367,56.7453588 C0.732062518,57.5802071 -0.0862844182,63.2520873 0.745699367,73.4006653 C1.15501473,78.3935137 2.37320947,72.6535371 4.40028358,56.1807356 C4.88291743,52.2586631 4.17885742,68.1368004 2.28810353,103.815148" id="Line-Copy"></path>
+                        <path d="M75.464572,2.57933449 C73.2897926,1.01475617 71.715085,0.264153486 70.7404492,0.327526428 C66.6750773,0.591865759 63.6579018,3.68865899 61.9124296,4.918517 C35.4232903,23.5827383 18.4606524,37.2397691 14.309063,40.9116787 C9.59956172,45.0770382 6.03428225,48.6636485 3.61322457,51.6715095" id="Line-3"></path>
                     </g>
-                    <g id="x2" transform="translate(41.000000, 39.000000)" stroke="#0C0C0B" stroke-width="2" stroke-linecap="square">
-                        <path d="M15,0 L15,27" id="Line-7"></path>
-                        <path d="M14,0 L14,27" id="Line-7-Copy" transform="translate(14.000000, 14.000000) rotate(-75.000000) translate(-14.000000, -14.000000) "></path>
+                    <g id="pin">
+                        <use fill="#869EAA" xlink:href="#path-7"></use>
+                        <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
                     </g>
+                    <g id="noose" transform="translate(128.085106, 72.123341)" stroke="#F5CF96" stroke-width="6" stroke-linecap="round">
+                        <path d="M3.52105099,0.215748873 C6.87001159,0.855854866 8.76747377,1.92448334 9.21343753,3.42163431 C9.65940129,4.91878527 9.57773079,11.2299923 8.96842602,22.3552555 C4.02813947,29.334026 1.16654157,34.5800049 0.38363233,38.0931922 C-0.790731532,43.3629732 1.65826509,55.0603364 9.21343753,55.0603364 C16.76861,55.0603364 20.3856186,44.3321207 18.1378509,38.0931922 C16.6393391,33.9339065 14.3188396,28.6879276 11.1763525,22.3552555" id="Line"></path>
+                        <path d="M5.74632256,10.4457137 L13.8434134,10.4457137" id="Line-2"></path>
+                        <path d="M4.70153664,13.0571422 L14.3658064,13.0571422" id="Line-2-Copy"></path>
+                        <path d="M4.70153664,15.6685706 L14.3658064,15.6685706" id="Line-2-Copy-2"></path>
+                        <path d="M4.70153664,18.279999 L14.3658064,18.279999" id="Line-2-Copy-3"></path>
+                        <path d="M4.70153664,18.279999 L14.3658064,18.279999" id="Line-2-Copy-4"></path>
+                        <path d="M6.26871552,20.8914275 L13.3210205,20.8914275" id="Line-2-Copy-5"></path>
+                    </g>
+                    <g id="head" transform="translate(125.035461, 80.249915)">
+                        <ellipse id="Oval-4" fill="#FFA604" transform="translate(22.592140, 25.053771) rotate(22.000000) translate(-22.592140, -25.053771) " cx="22.5921402" cy="25.0537706" rx="15.9868182" ry="20.0544246"></ellipse>
+                        <path d="M12.0476957,24.4798183 L17.8377816,38.4368043" id="Line-7-Copy-2" stroke="#0C0C0B" stroke-width="2" stroke-linecap="square"></path>
+                        <g id="x" transform="translate(12.098109, 9.955053)" stroke="#0C0C0B" stroke-width="2" stroke-linecap="square">
+                            <path d="M7.89007092,0 L7.89007092,14.1466538" id="Line-7"></path>
+                            <path d="M7.36406619,0 L7.36406619,14.1466538" id="Line-7-Copy" transform="translate(7.364066, 7.335302) rotate(-75.000000) translate(-7.364066, -7.335302) "></path>
+                        </g>
+                        <g id="x2" transform="translate(21.566194, 20.434056)" stroke="#0C0C0B" stroke-width="2" stroke-linecap="square">
+                            <path d="M7.89007092,0 L7.89007092,14.1466538" id="Line-7"></path>
+                            <path d="M7.36406619,0 L7.36406619,14.1466538" id="Line-7-Copy" transform="translate(7.364066, 7.335302) rotate(-75.000000) translate(-7.364066, -7.335302) "></path>
+                        </g>
+                    </g>
+                    <g id="stand" transform="translate(43.711584, 39.109136)">
+                        <rect id="Rectangle" fill="#AA5042" x="0" y="0" width="16.1823526" height="222.972864"></rect>
+                        <g id="Rectangle-3">
+                            <use fill="#AA5042" xlink:href="#path-10"></use>
+                            <use fill="url(#linearGradient-8)" xlink:href="#path-10"></use>
+                            <use fill="url(#linearGradient-9)" xlink:href="#path-10"></use>
+                        </g>
+                        <g id="Rectangle-2">
+                            <use fill="#AA5042" xlink:href="#path-12"></use>
+                            <use fill="url(#linearGradient-11)" xlink:href="#path-12"></use>
+                        </g>
+                    </g>
+                    <g id="gallowsbase" transform="translate(23.888889, 262.081999)">
+                        <rect id="gallows-base-top" fill="#AA5042" x="0" y="0" width="166.205674" height="3.6514672"></rect>
+                        <g id="gallows-base">
+                            <use fill="#AA5042" xlink:href="#path-14"></use>
+                            <use fill="url(#linearGradient-13)" xlink:href="#path-14"></use>
+                        </g>
+                    </g>
+                    <text id="i-h-a-t-_-t-_-a-_-t" font-family="Weibei-SC-Bold, Weibei SC" font-size="18" font-weight="bold">
+                        <tspan x="21.081669" y="29.403605" fill="#FFA604">i h a t </tspan>
+                        <tspan x="88.941669" y="29.403605" fill="#FFFFFF">_</tspan>
+                        <tspan x="97.941669" y="29.403605" fill="#FFA604"> t </tspan>
+                        <tspan x="123.231669" y="29.403605" fill="#FFFFFF">_</tspan>
+                        <tspan x="132.231669" y="29.403605" fill="#FFA604"> a </tspan>
+                        <tspan x="159.987669" y="29.403605" fill="#FFFFFF">_</tspan>
+                        <tspan x="168.987669" y="29.403605" fill="#FFA604"> t</tspan>
+                    </text>
                 </g>
-                <g id="stand" transform="translate(83.000000, 74.000000)">
-                    <rect id="Rectangle" fill="#AA5042" x="0" y="0" width="30.6648649" height="424"></rect>
-                    <g id="Rectangle-3">
-                        <use fill="#AA5042" xlink:href="#path-10"></use>
-                        <use fill="url(#linearGradient-8)" xlink:href="#path-10"></use>
-                        <use fill="url(#linearGradient-9)" xlink:href="#path-10"></use>
+                <g id="gallows3-copy">
+                    <g id="backdrop">
+                        <g id="sky">
+                            <use fill="#C9E6F4" xlink:href="#path-15"></use>
+                            <use fill="url(#linearGradient-1)" xlink:href="#path-15"></use>
+                            <use fill="url(#linearGradient-2)" xlink:href="#path-15"></use>
+                        </g>
+                        <text id="_-_-_-_-_-_-_-_-_-_" font-family="Weibei-SC-Bold, Weibei SC" font-size="18" font-weight="bold" fill="#FBFCFD">
+                            <tspan x="31.1273585" y="29.3183962">_ _ _ _ _ _ _ _ _ _</tspan>
+                        </text>
+                        <g id="sand">
+                            <use fill="#F5CF96" xlink:href="#path-16"></use>
+                            <use fill="url(#linearGradient-4)" xlink:href="#path-16"></use>
+                        </g>
                     </g>
-                    <g id="Rectangle-2">
-                        <use fill="#AA5042" xlink:href="#path-12"></use>
-                        <use fill="url(#linearGradient-11)" xlink:href="#path-12"></use>
+                    <g id="Combined-Shape">
+                        <use fill="#869EAA" xlink:href="#path-17"></use>
+                        <use fill="url(#linearGradient-6)" xlink:href="#path-17"></use>
                     </g>
-                </g>
-                <g id="gallowsbase" transform="translate(45.000000, 498.000000)">
-                    <rect id="gallows-base-top" fill="#AA5042" x="0" y="0" width="315" height="7"></rect>
-                    <g id="gallows-base">
-                        <use fill="#AA5042" xlink:href="#path-14"></use>
-                        <use fill="url(#linearGradient-13)" xlink:href="#path-14"></use>
+                    <g id="stand" transform="translate(44.115566, 39.044811)">
+                        <rect id="Rectangle" fill="#AA5042" x="0" y="0" width="16.229156" height="223.113208"></rect>
+                        <g id="Rectangle-3">
+                            <use fill="#AA5042" xlink:href="#path-18"></use>
+                            <use fill="url(#linearGradient-8)" xlink:href="#path-18"></use>
+                            <use fill="url(#linearGradient-9)" xlink:href="#path-18"></use>
+                        </g>
+                        <g id="Rectangle-2">
+                            <use fill="#AA5042" xlink:href="#path-19"></use>
+                            <use fill="url(#linearGradient-11)" xlink:href="#path-19"></use>
+                        </g>
+                    </g>
+                    <g id="gallowsbase" transform="translate(23.832547, 262.158019)">
+                        <rect id="gallows-base-top" fill="#AA5042" x="0" y="0" width="166.320755" height="3.6454615"></rect>
+                        <g id="gallows-base">
+                            <use fill="#AA5042" xlink:href="#path-20"></use>
+                            <use fill="url(#linearGradient-13)" xlink:href="#path-20"></use>
+                        </g>
                     </g>
                 </g>
             </g>
