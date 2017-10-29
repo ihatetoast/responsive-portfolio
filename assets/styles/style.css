@@ -49,6 +49,9 @@ header {
       padding: 0 1em;
       flex-direction: row;
       justify-content: space-between; } }
+  @media screen and (min-width: 980px) {
+    .content-header {
+      justify-content: space-around; } }
 
 .brand {
   display: flex;
@@ -114,6 +117,12 @@ contains two columns: main about and an aside
 */
 #main {
   margin: 1em; }
+  @media screen and (min-width: 980px) {
+    #main {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex: 1 0 auto; } }
 
 .aboutContent, aside {
   margin-top: 2em;
@@ -121,15 +130,27 @@ contains two columns: main about and an aside
 
 .aboutContent {
   background-color: #f5f8fa;
-  padding: 1.5em; }
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column; }
+  .aboutContent h2 {
+    color: #652e67;
+    font-size: 2em; }
+  @media screen and (min-width: 980px) {
+    .aboutContent {
+      flex: 0 0 45%;
+      margin-right: 2em; } }
 
-.aboutContent h2 {
-  color: #652e67;
-  font-size: 2em; }
-
-.aboutContent img {
-  float: left;
-  margin-right: 1em; }
+.imgWithText img {
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .imgWithText img {
+      width: 45%;
+      float: left;
+      margin-right: 1em; } }
+  @media screen and (min-width: 980px) {
+    .imgWithText img {
+      width: 100%; } }
 
 /*
 ***********
@@ -139,14 +160,22 @@ ASIDE
 aside {
   background-color: #f5f8fa;
   padding: 1.5em; }
-
-aside li {
-  display: inline; }
+  @media screen and (min-width: 980px) {
+    aside {
+      flex: 0 0 18em; } }
 
 .iconRow ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: flex-start; }
+  @media screen and (min-width: 768px) {
+    .iconRow ul {
+      justify-content: flex-start; } }
+  .iconRow ul li {
+    padding: 0 0.4em; }
+    @media screen and (min-width: 980px) {
+      .iconRow ul li {
+        padding: 0 0.5em; } }
 
 .title h3 {
   color: #652e67;
