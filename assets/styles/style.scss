@@ -55,6 +55,11 @@ header {
 .content-header {
 	display: flex;
 	flex-direction: column;
+	@media screen and (min-width: 620px){
+		padding: 0 1em;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 }
 .brand {
 	display:flex;
@@ -72,7 +77,6 @@ header {
 	h1 {
 		text-align: center;
 	}
-
 }
 
 nav {
@@ -81,6 +85,10 @@ nav {
 		justify-content: space-around;
 		text-align: center;
 		margin: 1em auto;
+	}
+	@media screen and (min-width: 620px){
+		display: flex;
+		align-items: center;
 	}
 }
 #ihtlogo {
@@ -98,6 +106,9 @@ nav {
 }
 #navLinks li{ 
 	flex-grow:1;
+		@media screen and (min-width: 620px){
+		padding: 0 0.5em;
+	}
 }
 .inactive {
 	color: $lilac;
