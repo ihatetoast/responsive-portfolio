@@ -186,32 +186,103 @@ aside {
 .title h3 {
   color: #652e67;
   font-size: 1.5em; }
-
 .title hr {
   border-width: 1px;
   text-align: center; }
 
 .icons {
-  margin: 0.2em 0.1em;
+  margin: 0em 0.25em;
   float: left; }
 
-#gitHub {
-  color: black; }
+.socialMedia-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
 
-#dribbble {
-  color: #ea4c89; }
+.socialMedia-holder {
+  position: relative;
+  display: inline-block;
+  width: 9.5em;
+  height: 2.25em;
+  margin: 0.35em 0.1em;
+  perspective: 500px; }
+  .socialMedia-holder .block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s;
+    transform: translateZ(-18px); }
+    .socialMedia-holder .block .socialMediaPlatform, .socialMedia-holder .block .socialMediaHandle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #f5f8fa;
+      transition: background 1s; }
+    .socialMedia-holder .block .socialMediaPlatform {
+      transform: rotateX(0deg) translateZ(18px); }
+    .socialMedia-holder .block .socialMediaHandle {
+      transform: rotateX(-90deg) translateZ(18px); }
+  .socialMedia-holder:hover .block {
+    transform: translateZ(-18px) rotateX(90deg); }
 
-#linkedIn {
-  color: #007bb5; }
-
-#twitter {
-  color: #00aced; }
-
-#wordPress {
-  color: #21759b; }
-
-#codePen {
-  color: black; }
+.socialMedia-holder.twitter .block .socialMediaPlatform, .socialMedia-holder.twitter .block .socialMediaHandle {
+  background: #00aced; }
+.socialMedia-holder.twitter .block .socialMediaHandle {
+  background: #004f6e; }
+.socialMedia-holder.twitter:hover .block .socialMediaHandle {
+  background: #00aced; }
+.socialMedia-holder.twitter:hover .block .socialMediaPlatform {
+  background: #6ed7ff; }
+.socialMedia-holder.linkedIn .block .socialMediaPlatform, .socialMedia-holder.linkedIn .block .socialMediaHandle {
+  background: #007bb5; }
+.socialMedia-holder.linkedIn .block .socialMediaHandle {
+  background: #002436; }
+.socialMedia-holder.linkedIn:hover .block .socialMediaHandle {
+  background: #007bb5; }
+.socialMedia-holder.linkedIn:hover .block .socialMediaPlatform {
+  background: #36beff; }
+.socialMedia-holder.wordPress .block .socialMediaPlatform, .socialMedia-holder.wordPress .block .socialMediaHandle {
+  background: #21759b; }
+.socialMedia-holder.wordPress .block .socialMediaHandle {
+  background: #0b2632; }
+.socialMedia-holder.wordPress:hover .block .socialMediaHandle {
+  background: #21759b; }
+.socialMedia-holder.wordPress:hover .block .socialMediaPlatform {
+  background: #5fb6dd; }
+.socialMedia-holder.gitHub .block .socialMediaPlatform, .socialMedia-holder.gitHub .block .socialMediaHandle {
+  background: #787878; }
+.socialMedia-holder.gitHub .block .socialMediaHandle {
+  background: #383838; }
+.socialMedia-holder.gitHub:hover .block .socialMediaHandle {
+  background: #787878; }
+.socialMedia-holder.gitHub:hover .block .socialMediaPlatform {
+  background: #b8b8b8; }
+.socialMedia-holder.dribbble .block .socialMediaPlatform, .socialMedia-holder.dribbble .block .socialMediaHandle {
+  background: #ea4c89; }
+.socialMedia-holder.dribbble .block .socialMediaHandle {
+  background: #a3134b; }
+.socialMedia-holder.dribbble:hover .block .socialMediaHandle {
+  background: #ea4c89; }
+.socialMedia-holder.dribbble:hover .block .socialMediaPlatform {
+  background: #f7bed4; }
+.socialMedia-holder.codePen .block .socialMediaPlatform, .socialMedia-holder.codePen .block .socialMediaHandle {
+  background: #191919; }
+.socialMedia-holder.codePen .block .socialMediaHandle {
+  background: black; }
+.socialMedia-holder.codePen:hover .block .socialMediaHandle {
+  background: #191919; }
+.socialMedia-holder.codePen:hover .block .socialMediaPlatform {
+  background: #595959; }
 
 /*Flexbox here:*/
 .content {

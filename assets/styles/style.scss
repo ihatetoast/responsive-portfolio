@@ -2,20 +2,59 @@
 /*font-family: 'Asul', sans-serif;
 font-family: 'Chivo', sans-serif;*/
 
-* {
-	box-sizing: border-box;
-}
-html, body {
-	height: 100%;
-}
-// VARIABLES:
+//VARIABLES:
+//colours:
 $lavender: rgb(151, 145, 159);
 $lilac: rgb(198, 177, 199);
 $eggplant: rgb(101, 46, 103);
 $white: rgb(245, 248, 250);
 $active: rgb(191, 129, 157);
 
+//social media colours:
+$gitHub: rgb(120,120, 120 );
+$dribbble: rgb(234,76,137);
+$linkedIn: rgb(0, 123, 181);
+$twitter: rgb(0, 172, 237);
+$wordPress: rgb(33, 117, 155);
+$codePen: rgb(25, 25, 25);
+
+//tests
 $test: green;
+@mixin testDiv($w, $h){
+	width: $w;
+	height: $h;
+}
+//MIXINS
+@mixin socialMedia-container($color) {
+  .block {
+    .socialMediaPlatform, .socialMediaHandle {
+      background: $color;
+    }
+    .socialMediaHandle {
+      //effect of shadow
+      background: darken($color, 25%);
+    }
+  }
+  //on hovering, bottom becomes the color and top gets lighter
+  &:hover .block {
+    .socialMediaHandle {
+      background: $color;
+    }
+    .socialMediaPlatform {
+      //effect of hitting light from above
+      background: lighten($color, 25%);
+    }
+  }
+}
+
+
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+
 /*flexbox: 
 column, have bulk div for .content so it grows and footer sticks*/
 body {
@@ -45,6 +84,7 @@ hr {
 // 	width: 960px;
 // 	margin: 0 auto;
 // }
+
 /*TOP:
 *********************************************************
 *********************************************************
@@ -217,37 +257,95 @@ aside {
 	}
 }
 
-.title h3 {
-	color: $eggplant;
-	font-size: 1.5em;
+.title {
+	 h3 {
+		color: $eggplant;
+		font-size: 1.5em;
+	}
+	hr {
+		border-width: 1px;
+		text-align: center;
+	}
+}
 
-}
-.title hr {
-	border-width: 1px;
-	text-align: center;
-}
 .icons {
-	margin: 0.2em 0.1em;
+	margin: 0em 0.25em;
 	float: left;
 }
-#gitHub {
-	color: rgb(0,0,0);
+
+.socialMedia-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-items: center;
+	text-align: center;
 }
-#dribbble {
-	color: #ea4c89;
+.socialMedia-holder {
+	position: relative;
+	display: inline-block;
+	width: 9.5em;
+	height: 2.25em;
+	margin: 0.35em 0.1em;
+	//rotation controlled with perspective:
+	perspective: 500px;
+	.block {
+		position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s;
+    transform: translateZ(-18px);
+    .socialMediaPlatform, .socialMediaHandle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $white;
+      transition: background 1s;
+    }
+    //location at start, so flipped (x axis) and come close a smidge trans z
+    .socialMediaPlatform {
+    	transform: rotateX(0deg) translateZ(18px);
+    }
+    .socialMediaHandle{
+    	 transform: rotateX(-90deg) translateZ(18px);
+    }
+	} 
+	//how it moves when on hover: back a schmidge == up a smidge and then rotate up
+	&:hover .block {
+    transform: translateZ(-18px) rotateX(90deg);
+  }
 }
-#linkedIn {
-	color: rgb(0, 123, 181);
+
+
+//apply color mixin:
+.socialMedia-holder {
+  &.twitter {
+    @include socialMedia-container($twitter);
+  }
+  &.linkedIn {
+    @include socialMedia-container($linkedIn);
+  }
+  &.wordPress {
+    @include socialMedia-container($wordPress);
+  }
+  &.gitHub {
+    @include socialMedia-container($gitHub);
+  }
+  &.dribbble {
+    @include socialMedia-container($dribbble);
+  }
+  &.codePen {
+    @include socialMedia-container($codePen);
+  }
 }
-#twitter {
-	color: rgb(0, 172, 237);
-}
-#wordPress {
-	color: 	rgb(33, 117, 155);
-}
-#codePen {
-	color: rgb(0,0,0);
-}
+
 /*Flexbox here:*/
 .content {
 	flex: 1 0 auto;
